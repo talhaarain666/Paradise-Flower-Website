@@ -1,0 +1,249 @@
+body {
+  scroll-behavior: smooth !important;
+  min-width: 350px;
+}
+
+.bg-cstm {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffe1ff 100%);
+}
+.bgcstmleft {
+  background-image: linear-gradient(to left, #fad0c4 0%, #ffe1ff 100%);
+  box-shadow: rgb(255, 183, 239) 0px -40px 50px -40px inset;
+}
+.boxShadowContctf {
+  box-shadow: rgb(255, 199, 232) 0px -40px 36px -22px inset;
+}
+.bg-pink {
+  background-image: linear-gradient(to top, #ffd0d9 0%, #ffd1e7 50%, #ffddf7 100%);
+}
+
+.bg-darkpurple {
+  background-color: purple;
+}
+
+.clrgreen {
+  color: green;
+}
+
+/* Custom Headings */
+.customheadings {
+  font-family: Times, 'Times New Roman', serif;
+  font-size: 50px;
+  font-variant: small-caps;
+  text-align: center;
+  color: purple;
+  transition: .9s;
+}
+
+.customheadings:hover {
+  text-shadow: 1px 1px 3px darkmagenta;
+  color: rgb(126, 4, 179);
+}
+
+/* Contact Inputs */
+.inptxtborder {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0%;
+}
+
+.inptxtborder:focus {
+  border-color: purple;
+  border-width: 2px;
+}
+
+.inptxtborder:hover {
+  color: purple;
+}
+
+/* Headings of Contact Inputs */
+.headingsborderrem {
+  border: none;
+}
+
+.headingsborderrem:hover {
+  color: purple;
+}
+
+/* OVAL */
+.oval {
+  width: 150px;
+  height: 250px;
+  background: black;
+  border-radius: 100px / 70px;
+  margin: auto;
+}
+
+/* IMAGE SIZE 100% */
+.imgSizeFull {
+  width: 100%;
+  height: 100%;
+}
+
+/* Shadow On Items */
+.cstmShadow12 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cstmShadow12:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* RECTANGLE VERTICAL */
+.vRect {
+  width: 150px;
+  height: 250px;
+  background: black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* RECTANGLE */
+.Rect {
+  margin: auto;
+  width: 235px;
+  height: 150px;
+  background: black;
+  border-radius: 10px;
+}
+
+/* CIRCLE */
+.circle {
+  background: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+
+.circ1 {
+  background-image: url(images/WristFlowerBand/1.webp);
+}
+
+.circ2 {
+  background-image: url(images/WristFlowerBand/2.webp);
+}
+
+.circ3 {
+  background-image: url(images/WristFlowerBand/3.webp);
+}
+
+.circ4 {
+  background-image: url(images/WristFlowerBand/4.webp);
+}
+
+.circ5 {
+  background-image: url(images/WristFlowerBand/5.webp);
+}
+
+.circ6 {
+  background-image: url(images/WristFlowerBand/6.webp);
+}
+
+.circ7 {
+  background-image: url(images/WristFlowerBand/7.webp);
+}
+
+.circ8 {
+  background-image: url(images/WristFlowerBand/8.webp);
+}
+
+.circ9 {
+  background-image: url(images/WristFlowerBand/9.webp);
+}
+
+.circ10 {
+  background-image: url(images/WristFlowerBand/10.webp);
+}
+
+.circ11 {
+  background-image: url(images/WristFlowerBand/11.webp);
+}
+
+.circ12 {
+  background-image: url(images/WristFlowerBand/12.webp);
+}
+
+.circ13 {
+  background-image: url(images/WristFlowerBand/13.webp);
+}
+
+.circ14 {
+  background-image: url(images/WristFlowerBand/14.webp);
+}
+
+.circ15 {
+  background-image: url(images/WristFlowerBand/15.webp);
+}
+
+.circ16 {
+  background-image: url(images/WristFlowerBand/16.webp);
+}
+
+.circ17 {
+  background-image: url(images/WristFlowerBand/17.webp);
+}
+
+.circ18 {
+  background-image: url(images/WristFlowerBand/18.webp);
+}
+
+/* SQUARE */
+.square {
+  height: 150px;
+  width: 230px;
+  margin: auto;
+}
+
+.borderbtm {
+  border-bottom: 5px solid black;
+}
+
+/* Animation on Logo And Address */
+.chkab {
+  animation: talha1 3s ease-in infinite;
+  text-shadow: 0.5px 0.5px #f8c2f8;
+}
+
+/* WELCOME HEADING */
+.welcome {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  text-shadow: 1px 1px 15px red;
+  animation: talha1 3s ease-in infinite;
+}
+
+@keyframes talha1 {
+
+  0% {
+    color: rgb(255, 198, 207);
+  }
+
+  50% {
+    color: peachpuff;
+  }
+
+  75% {
+    color: rgb(255, 195, 204);
+  }
+
+  100% {
+    color: rgb(255, 198, 207);
+  }
+
+}
+
+/* Navbar Headings Hover Shadow */
+.navhover:hover {
+  text-shadow: 1px 1px #f8c2f8;
+}
+
+/* Contact Form Submit Message */
+.displayNoneCss, #nameValidMsg, #phoneValidMsg {
+  display: none;
+}
